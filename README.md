@@ -34,10 +34,6 @@ Copy-Item .env.example .env.local
 npm run dev
 ~~~
 
-打开 http://127.0.0.1:5173 。后端默认监听 http://127.0.0.1:3001 。修改配置后重新启动。Windows 也可以双击 `start-demo.cmd`。
-
-没有 API Key 时可以查看界面与内置绘画示例，聊天和实际生成需要配置对应服务。
-
 ## 模型配置
 
 | 配置 | 用途 |
