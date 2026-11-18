@@ -1,0 +1,22 @@
+{
+  "name": "little-maker",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node dev.mjs",
+    "build": "vite build",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "vite": "*",
+    "three": "*",
+    "lucide": "*"
+  },
+  "devDependencies": {
+    "playwright": "*"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=24.0.0"
+  }
+}

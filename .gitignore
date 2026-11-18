@@ -1,0 +1,36 @@
+# Credentials and runtime data
+.env
+.env.*
+!.env.example
+.server-data/
+*.sqlite*
+*.db
+*.pem
+*.key
+*.log
+
+# Local production and recording materials
+design/
+submission/
+video-materials/
+.dsh-recovery/
+public/cases/
+.*.mjs
+.*.py
+.*.ps1
+release-audit*
+
+# Generated files
+node_modules/
+dist/
+.release-check/
+.DS_Store
+Thumbs.db
+# Retired local design experiments
+public/assets/mascot.png
+public/assets/moon-stars.svg
+public/assets/pencils.svg
+public/assets/story-gallery.webp
+public/assets/story-workshop.webp
+public/assets/theatre.png
+public/assets/theatre.webp
