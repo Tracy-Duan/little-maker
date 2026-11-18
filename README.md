@@ -100,3 +100,7 @@ npm run build
 ## 许可证
 
 项目原创代码采用 [MIT License](LICENSE)。界面插画由生成式 AI 辅助制作。第三方解码器遵循其原有许可证，见 [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md)。服务端模型及模型服务遵循各供应商条款。
+
+### 已知依赖公告
+
+发布检查中 npm audit 报告 picomatch 的正则拒绝服务问题，并连带标记 fdir、tinyglobby 和 Vite，共四个 high 项。运行 npm audit fix 后仍有该报告；检查时 npm 返回的 picomatch 最新版本为 4.0.7。当前版本用于本机运行，后续升级依赖时需重新核验公告和修复状态。公告 https://github.com/advisories/GHSA-fc5q-39xc-vjpf 。
